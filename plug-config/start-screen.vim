@@ -7,7 +7,7 @@ let g:startify_custom_header = [
         \ '    /_/ |_/  |___/\____/\____/\__,_/\___/ ',
         \]
                                       
-let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_session_dir = '$LOCALAPPDATA/nvim/session'
 
 
 let g:startify_lists = [
@@ -31,8 +31,8 @@ function! StartifyEntryFormat()
     endfunction
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
-            \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 'c': '$LOCALAPPDATA/i3/config' },
+            \ { 'i': '$LOCALAPPDATA/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
             \ '~/Blog',
             \ '~/Code',
