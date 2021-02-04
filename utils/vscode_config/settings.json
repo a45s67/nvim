@@ -983,7 +983,7 @@
   "kite.showWelcomeNotificationOnStartup": false,
   "python.terminal.activateEnvironment": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "FiraCode Nerd Font Mono, Hack, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "FiraCode Nerd Font Mono, Hack, Menlo, Monaco, 'Courier New', monospace",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -993,14 +993,14 @@
   "terminal.external.osxExec": "iTerm.app",
   "editor.minimap.enabled": false,
   "workbench.activityBar.visible": true,
-  "leetcode.workspaceFolder": "/Users/chris/Repos/leetcode",
+  // "leetcode.workspaceFolder": "/Users/chris/Repos/leetcode",
   "leetcode.defaultLanguage": "javascript",
   "leetcode.hint.configWebviewMarkdown": false,
   "leetcode.hint.commentDescription": false,
   "window.zoomLevel": 2,
   "window.menuBarVisibility": "toggle",
   "python.dataScience.alwaysTrustNotebooks": true,
-  "python.condaPath": "$HOME/.miniconda/bin/conda",
+  // "python.condaPath": "$HOME/.miniconda/bin/conda",
   "python.formatting.provider": "black",
   "python.insidersChannel": "off",
   "terminal.integrated.shell.linux": "/bin/zsh",
@@ -1124,5 +1124,5 @@
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
   "python.showStartPage": false,
-  "editor.snippetSuggestions": "bottom"
+  // "editor.snippetSuggestions": "bottom"
 }
