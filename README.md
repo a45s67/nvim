@@ -1,4 +1,4 @@
-# NVCode
+# NVCode (for windows)
 
 ![NVCode pic](./utils/images/nvim.png)
 
