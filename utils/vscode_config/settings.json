@@ -1,4 +1,58 @@
 {
+    "python.pythonPath": "c:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "workbench.editorAssociations": [],
+    "vim.visualModeKeyBindings": [
+    {
+
+        "before": ["<C-a>"],
+        "after": ["@","q"]
+    }
+    
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+     {
+         "before": ["<C-a>"],
+         "after": ["@","q"]
+     }
+    ],
+    "vim.handleKeys": {
+        "<C-,>": false,
+        "<C-b>": false,
+        // "<C-a>": false,
+        "<C-f>": false
+    },
+    "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+        "text": "CHANGE:",
+        "color": "#ff0000",
+        "backgroundColor": "pink",
+        "overviewRulerColor": "grey"
+    }
+    ],
+    "todohighlight.exclude": [
+
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.editor.enablePreview": true,
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
+ 
+    
+
+
+
+// NOTE: =====================>> neovim  <<==============================
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
@@ -993,7 +1047,6 @@
   "leetcode.defaultLanguage": "javascript",
   "leetcode.hint.configWebviewMarkdown": false,
   "leetcode.hint.commentDescription": false,
-  "window.zoomLevel": 2,
   "window.menuBarVisibility": "toggle",
   "python.dataScience.alwaysTrustNotebooks": true,
   "python.formatting.provider": "black",
@@ -1119,5 +1172,5 @@
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
   "python.showStartPage": false,
-  // "editor.snippetSuggestions": "bottom"
+ 
 }

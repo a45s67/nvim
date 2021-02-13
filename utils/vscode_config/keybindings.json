@@ -1,4 +1,21 @@
+// Place your key bindings in this file to override the defaults
 [
+  { // |←
+    "key": "ctrl+0",
+    "when": "!sideBarFocus",
+    "command": "workbench.action.focusSideBar"
+  },
+  { // |→
+    "key": "ctrl+0",
+    "when": "sideBarFocus",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+
+
+
+//========>  neovim  <==========================
+
+
   {
     "key": "shift+ctrl+e",
     "command": "actions.findWithSelection"
@@ -168,4 +185,8 @@
     "command": "-vscode-neovim.ctrl-f",
     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
   }
+
+
+
+
 ]
