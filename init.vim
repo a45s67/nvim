@@ -6,6 +6,7 @@
 
 
 " General Settings
+let mapleader = "\\"
 if !exists('g:vscode')
   source $LOCALAPPDATA/nvim/plug-config/polyglot.vim
 endif
