@@ -3,6 +3,8 @@
 let g:EasyMotion_smartcase = 1
 let g:EasyMotion_verbose = 0
 let g:EasyMotion_do_shade = 1
+let tmpled = mapleader
+let mapleader = '\'
 
 nmap temp :echo('your leader is "<Leader>"')<Esc>
 execute 'normal temp'
@@ -24,14 +26,14 @@ map <Leader>k <Plug>(easymotion-k)
 " s{char}{char} to move to {char}{char}
 nmap <silent> s <Plug>(easymotion-s2)
 nmap <silent> S <Plug>(easymotion-overwin-f2)
-map  n <Plug>(easymotion-next)
+" map  n <Plug>(easymotion-next)
 " map  N <Plug>(easymotion-prev)
 " nmap S <Plug>(easymotion-overwin-t)
 
 " Move to line
 map <Leader>l <Plug>(easymotion-bd-jk)
 " nmap <Leader>l <Plug>(easymotion-overwin-line)
-" :nmap \l
+
 " " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 " nmap <Leader>w <Plug>(easymotion-overwin-w)
@@ -45,3 +47,5 @@ let g:EasyMotion_prompt = '🔎 '
 
 "Lower case finds upper & lower case but upper case only finds upper case
 " let g:EasyMotion_smartcase = 1
+
+let mapleader = tmpled
